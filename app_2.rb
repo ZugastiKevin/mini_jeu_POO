@@ -53,8 +53,10 @@ while((player1.life_points != 0 and player2.life_points != 0) or player0.life_po
   puts "attaquer un joueur en vue :"
   puts "0 - "
   print player1.show_state
+  puts " "
   puts "1 - "
-  puts player2.show_state
+  print player2.show_state
+  puts " "
 
   puts "Votre réponse :"
   print ">"
